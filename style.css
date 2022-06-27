@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  :root {
+    /*Para poner colores que vayamos a usar seguido en variables*/
+    --sky: #92abcc;
+    --cloud: #fafafa;
+    --carbon: #19191d;
+    --sea: #dde2ff;
+  }  
+  
+.box-header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--carbon);
+}
+
+.ul-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none
+}
+
+li{
+    padding-left: 15px;
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 80px;
+}
+
+.main-menu-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.profile-pick{
+    border-radius: 60%;
+    padding: 20px;
+    width: 368px;
+}
+
+.ul-socialmedia{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+/* /Description/ */
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    min-height: 300px;
+    background-color: var(--sea)
+  
+}
+
+  .card-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4rem;
+    gap: 1.5rem;
+  }
+  
+  .skills-section {
+    background-color: var(--cloud);
+  }
+  
+  .card-skill {
+    height: 10rem;
+    max-width: 10rem;
+    min-width: 10rem;
+    min-height: 3rem;
+    border-radius: 5px;
+    background-color: var(--sea);
+    justify-content: center
+
+  }
+  
+  .card h2 {
+    font-size: clamp(2.2rem, 5vw, 2.5rem);
+    color: var(--sea);
+    font-weight: 500;
+  }
+  
+  .fa-brands {
+    color: var(--sea);
+    font-weight: 500px;
+    font-size: clamp(1.5rem, 2vw, 2.2rem);
+  }
+
+  .card {
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
